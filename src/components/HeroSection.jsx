@@ -17,11 +17,11 @@ const HeroSection = () => {
                 </h1>
                 <p className="text-gray-600 text-lg mt-7 italic">"Breathe life into your space, one plant at a time."</p>
                 <div className="buttons mt-16 flex gap-7">
-                    <button className="btn px-5 py-3 bg-black text-white text-lg rounded-4xl flex items-center gap-2">
+                    <button className="btn px-10 py-4 bg-black text-white text-lg rounded-4xl flex items-center gap-2 cursor-pointer">
                         <span>Shop Plant</span>
                         <FaArrowRightLong className='text-white' />
                     </button>
-                    <button className="btn px-5 py-3 bg-white text-black text-lg border border-black rounded-4xl">About Us</button>
+                    <button className="btn px-10 py-4 bg-white text-black text-lg border border-black rounded-4xl cursor-pointer">About Us</button>
                 </div>
             </div>
 
