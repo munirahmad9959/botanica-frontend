@@ -30,7 +30,7 @@ const Navbar = () => {
       <hr className="border-t border-[#1a7303] opacity-50" />
 
       {/* Navigation Links */}
-      <div className="nav-links flex itemcenter justify-between px-6 py-4">
+      <div className="nav-links flex items-center justify-between px-6 py-4">
         <nav className="flex justify-center space-x-6 py-2 text-[#000]">
           <a href="#" className="text-gray-700 hover:text-green-600">
             Home

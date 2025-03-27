@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection'
-import BelowHeroCards from '../components/BelowHeroCards'
-import { FaArrowRightLong } from 'react-icons/fa6'
+import HeroSection from '../components/Home/HeroSection'
+import BelowHeroCards from '../components/Home/BelowHeroCards'
 import Footer from '../components/Footer'
-import TestimonialSection from '../components/TestimonialSection'
-import AboutSection from '../components/AboutSection'
-import BackgroundPlantsSection from '../components/BackgroundPlantsSection'
-import BlogSection from '../components/BlogSection'
+import TestimonialSection from '../components/Home/TestimonialSection'
+import AboutSection from '../components/Home/AboutSection'
+import BackgroundPlantsSection from '../components/Home/BackgroundPlantsSection'
+import BlogSection from '../components/Home/BlogSection'
 
 const Home = () => {
   return (
@@ -19,10 +18,10 @@ const Home = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
         }}>
-        <div className="absolute top-0 left-0 w-full">
+        <div className="absolute top-0 left-0 w-full z-10">
           <Navbar />
         </div>
-        <div className="absolute top-0 left-0 w-full">
+        <div className="relative w-full">
           <HeroSection />
         </div>
       </div>
