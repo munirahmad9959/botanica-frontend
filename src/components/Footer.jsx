@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="w-[80%] mx-auto border-t border-gray-300 mt-10"></div>
 
             {/* Copyright */}
-            <div className="text-left ml-[8.5rem] text-gray-600 text-sm py-4 mt-5">
+            <div className="text-center text-gray-600 text-base pt-4">
                 © 2023, All Rights Reserved.
             </div>
         </footer>

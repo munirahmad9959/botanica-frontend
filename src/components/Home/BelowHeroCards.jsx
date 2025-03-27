@@ -15,7 +15,7 @@ const BelowHeroCards = () => {
                         <span className='font-extrabold text-xl' style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>$20,00</span>
                     </div>
                 </div>
-                <div className="absolute button px-20 py-3 bg-black rounded-3xl mt-4 left-4 text-white" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Buy now</div>
+                <div className="absolute button px-17 py-3 bg-black rounded-3xl mt-4 left-4 text-white cursor-pointer" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Add to cart</div>
             </div>
 
             <div className="w-64 h-96 bg-[#d9d9d9] shadow-lg relative"
@@ -30,7 +30,7 @@ const BelowHeroCards = () => {
                         <span className='font-extrabold text-xl' style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>$20,00</span>
                     </div>
                 </div>
-                <div className="absolute button px-20 py-3 bg-black rounded-3xl mt-4 left-4 text-white" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Buy now</div>
+                <div className="absolute button px-17 py-3 bg-black rounded-3xl mt-4 left-4 text-white cursor-pointer" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Add to cart</div>
             </div>
 
             <div className="w-64 h-96 bg-[#d9d9d9] shadow-lg relative"
@@ -45,7 +45,7 @@ const BelowHeroCards = () => {
                         <span className='font-extrabold text-xl' style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>$20,00</span>
                     </div>
                 </div>
-                <div className="absolute button px-20 py-3 bg-black rounded-3xl mt-4 left-4 text-white" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Buy now</div>
+                <div className="absolute button px-17 py-3 bg-black rounded-3xl mt-4 left-4 text-white cursor-pointer" style={{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>Add to cart</div>
             </div>
         </div>
 
