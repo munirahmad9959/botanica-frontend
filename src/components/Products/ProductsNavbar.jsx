@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 const ProductsNavbar = () => {
@@ -48,7 +48,7 @@ const ProductsNavbar = () => {
                 {/* Icons */}
                 <div className="flex items-center space-x-4">
                     <div className="cursor-pointer flex items-center">
-                        <img src="./resources/cart icon.png" alt="cart icon" className="cursor-pointer bg-[#5E9E4D] py-2 px-3 rounded-3xl" />
+                        <Link to="/cart"><img src="./resources/cart icon.png" alt="cart icon" className="cursor-pointer bg-[#5E9E4D] py-2 px-3 rounded-3xl" /></Link>
                     </div>
                     <div className="cursor-pointer flex items-center text-[#797979]">
                         <img src="./resources/person-outline.png" alt="account" className="cursor-pointer bg-[#5E9E4D] py-2 px-3 rounded-3xl" />

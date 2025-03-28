@@ -64,7 +64,7 @@
 
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -87,7 +87,7 @@ const Navbar = () => {
             </span>
           </div>
           <div className="cursor-pointer flex items-center">
-            <img src="./resources/cart icon-1.png" alt="cart icon" className="cursor-pointer bg-[#5E9E4D] py-2 px-3 rounded-3xl" />
+            <Link to="/cart"><img src="./resources/cart icon-1.png" alt="cart icon" className="cursor-pointer bg-[#5E9E4D] py-2 px-3 rounded-3xl" /></Link>
           </div>
         </div>
       </div>

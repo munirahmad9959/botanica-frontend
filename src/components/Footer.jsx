@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -12,15 +13,15 @@ const Footer = () => {
                     </p>
                     {/* Social Media Icons */}
                     <div className="flex space-x-3 mt-4">
-                        <a href="#" className="bg-yellow-400 p-2 rounded-full">
+                        <Link to="#" className="bg-yellow-400 p-2 rounded-full">
                             <img src="./resources/twitter-fill.png" alt="Twitter" className="w-7" />
-                        </a>
-                        <a href="#" className="bg-yellow-400 p-2 rounded-full">
+                        </Link>
+                        <Link to="#" className="bg-yellow-400 p-2 rounded-full">
                             <img src="./resources/instagram-fill.png" alt="Instagram" className="w-7" />
-                        </a>
-                        <a href="#" className="bg-yellow-400 p-2 rounded-full">
+                        </Link>
+                        <Link to="#" className="bg-yellow-400 p-2 rounded-full">
                             <img src="./resources/facebook-circle-fill.png" alt="Facebook" className="w-7" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -28,12 +29,12 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold">Quick Links</h3>
                     <ul className="mt-2 space-y-1 text-gray-600">
-                        <li><a href="#" className="hover:text-green-600">Home</a></li>
-                        <li><a href="#" className="hover:text-green-600">Plant</a></li>
-                        <li><a href="#" className="hover:text-green-600">Plant Collection</a></li>
-                        <li><a href="#" className="hover:text-green-600">About</a></li>
-                        <li><a href="#" className="hover:text-green-600">Blog</a></li>
-                        <li><a href="#" className="hover:text-green-600">Contact</a></li>
+                        <li><Link to="#" className="hover:text-green-600">Home</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Plant</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Plant Collection</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">About</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Blog</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Contact</Link></li>
                     </ul>
                 </div>
 
@@ -41,10 +42,10 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold">About Us</h3>
                     <ul className="mt-2 space-y-1 text-gray-600">
-                        <li><a href="#" className="hover:text-green-600">Our Company</a></li>
-                        <li><a href="#" className="hover:text-green-600">Privacy Policy</a></li>
-                        <li><a href="#" className="hover:text-green-600">Product</a></li>
-                        <li><a href="#" className="hover:text-green-600">How to buy</a></li>
+                        <li><Link to="#" className="hover:text-green-600">Our Company</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Privacy Policy</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">Product</Link></li>
+                        <li><Link to="#" className="hover:text-green-600">How to buy</Link></li>
                     </ul>
                 </div>
 
@@ -55,11 +56,11 @@ const Footer = () => {
                         <img src="./resources/phone-fill.png" alt="" /> +211444222
                     </p>
                     <p className="mt-2 text-gray-600 flex items-center gap-2">
-                        <img src="./resources/email-fill.png" alt="" /> lampunggardening@garden.com
+                        <img src="./resources/email-fill.png" alt="" /> botanica@garden.com
                     </p>
                     <p className="mt-2 text-gray-600">
                         Jendral Sudirman 111, Pahoman<br />
-                        Bandar Lampung, Lampung
+                        Bandar Botanica, Botanica
                     </p>
                 </div>
             </div>
@@ -69,7 +70,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="text-center text-gray-600 text-base pt-4">
-                © 2023, All Rights Reserved.
+                © 2025, All Rights Reserved.
             </div>
         </footer>
     )

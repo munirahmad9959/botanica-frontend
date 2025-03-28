@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/Home/HeroSection'
 import BelowHeroCards from '../components/Home/BelowHeroCards'
@@ -7,8 +7,28 @@ import TestimonialSection from '../components/Home/TestimonialSection'
 import AboutSection from '../components/Home/AboutSection'
 import BackgroundPlantsSection from '../components/Home/BackgroundPlantsSection'
 import BlogSection from '../components/Home/BlogSection'
+import { useDispatch, useSelector } from 'react-redux'
+import { setLoading } from '../state'
+import Loader from '../components/Loader'
 
 const Home = () => {
+  const dispatch = useDispatch();
+  const loading = useSelector((state) => state.auth.loading);
+
+  useEffect(() => {
+    dispatch(setLoading(true));
+
+    const timeout = setTimeout(() => {
+      dispatch(setLoading(false));
+    }, 1500); // Simulating loading time
+
+    return () => clearTimeout(timeout);
+  }, [dispatch]);
+
+  if (loading) {
+    return <Loader />;
+  }
+  
   return (
     <div className='overflow-x-hidden h-screen w-screen relative' style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
       <div
@@ -61,7 +81,7 @@ const Home = () => {
 
       {/* Blog background */}
       <BlogSection />
-      
+
       {/* Testimonial Section */}
 
       <TestimonialSection />
